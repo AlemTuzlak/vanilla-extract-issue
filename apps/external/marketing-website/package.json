@@ -1,0 +1,39 @@
+{
+		"name": "marketing-website",
+		"author": "CV Maker B.V.",
+		"private": true,
+		"type": "module",
+		"scripts": {
+				"build": "remix vite:build",
+				"dev": "FORCE_COLOR=1 remix vite:dev"
+		},
+		"dependencies": {
+				"@remix-run/node": "^2.12.0",
+				"@remix-run/react": "^2.12.0",
+				"@types/react-dom": "^18.3.0",
+				"@vanilla-repro/ui": "workspace:^",
+				"glob": "^11.0.0",
+				"hono": "4.6.5",
+				"isbot": "^5.1.16",
+				"postcss-preset-env": "^8.0.1",
+				"react": "^18.3.1",
+				"react-aria": "^3.32.1",
+				"react-dom": "^18.3.1",
+				"react-router-hono-server": "0.4.0",
+				"remix-hono": "0.0.16"
+		},
+		"devDependencies": {
+				"@remix-run/dev": "^2.12.0",
+				"@types/react": "^18.3.3",
+				"@vanilla-extract/vite-plugin": "^4.0.13",
+				"@vanilla-repro/tsconfig": "workspace:*",
+				"@vitest/browser": "2.0.5",
+				"happy-dom": "12.10.3",
+				"remix-development-tools": "4.6.0",
+				"typescript": "^5.5.4",
+				"vite": "^5.4.1",
+				"vite-tsconfig-paths": "^4.3.2",
+				"vitest": "^2.0.5"
+		},
+		"homepage": "./"
+}

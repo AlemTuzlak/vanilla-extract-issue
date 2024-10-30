@@ -1,0 +1,30 @@
+{
+	"name": "vanilla-repro",
+	"version": "1.0.0",
+	"author": "Forge 42",
+	"license": "MIT",
+	"type": "module",
+	"private": true,
+	"sideEffects": false,
+	"scripts": {
+		"clean": "git clean -fdX --exclude=\"!.env*\"",
+		"check": "biome check .",
+		"check:fix": "biome check --fix .",
+		"check:unused": "knip --no-exit-code",
+		"dep:mismatch": "sherif",
+		"dep:mismatch:fix": "sherif --fix"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+
+		"knip": "5.27.2",
+		"lefthook": "1.7.14",
+		"sherif": "0.11.0",
+		"turbo": "2.0.14"
+	},
+	"engines": {
+		"node": ">=v20.16.0",
+		"pnpm": ">=9.7.1"
+	},
+	"packageManager": "pnpm@9.7.1"
+}

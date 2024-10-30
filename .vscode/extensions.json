@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"biomejs.biome",
+		"redhat.vscode-yaml",
+		"christian-kohler.npm-intellisense",
+		"codeforge.remix-forge",
+		"Vercel.turbo-vsc",
+		"github.vscode-github-actions"
+	]
+}

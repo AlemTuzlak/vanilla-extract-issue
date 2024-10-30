@@ -1,0 +1,81 @@
+node_modules
+public/build
+build
+dist
+out
+coverage
+
+# Other Coverage tools
+*.lcov
+
+# macOS
+.DS_*
+
+# Cache Directories and files
+.cache
+.yarn*
+.env*
+!.env.sample
+.swp*
+.turbo
+.npm
+.stylelintcache
+*.tsbuildinfo
+.node_repl_history
+
+# Lock files from other package managers
+package-lock.json
+yarn.lock
+
+# General tempory files and directories
+tmp
+.tmp
+temp
+.temp
+
+# Docusaurus cache and generated files
+.docusaurus
+
+# Output of 'npm pack'
+*.tgz
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tbz
+*.zip
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+vite.config.ts.*
+
+# Playwright various test reports
+/apps/*/*/test-results/
+/apps/*/*/playwright-report/
+/apps/*/*/blob-report/
+/apps/*/*/base-coverage/
+/packages/*/*/test-results/
+/packages/*/*/playwright-report/
+/packages/*/*/blob-report/
+/packages/*/*/base-coverage/
+
+# Storybook
+%SystemDrive%
+storybook-static
+*storybook.log
+undefined
+.history

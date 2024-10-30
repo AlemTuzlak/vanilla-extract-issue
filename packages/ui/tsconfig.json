@@ -1,0 +1,9 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "@vanilla-repro/tsconfig/base.json",
+	"include": ["**/*.ts", "**/*.tsx", "./*.ts", "./*.tsx"],
+	"compilerOptions": {
+		"tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json",
+		"types": ["vitest/globals"]
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "@vanilla-repro/tsconfig",
+	"private": true,
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"files": ["base.json", "remix.json"]
+}

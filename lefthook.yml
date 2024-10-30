@@ -1,0 +1,14 @@
+pre-commit:
+  parallel: true
+  commands:
+    check:
+      run: pnpm turbo run check -- --staged --fix --no-errors-on-unmatched
+      stage_fixed: true
+    typecheck:
+      run: pnpm turbo run typecheck
+    test:
+      run: pnpm turbo run test
+    unused-code:
+      run: pnpm turbo run check:unused
+    dep-mismatch:
+      run: pnpm turbo run dep:mismatch
